@@ -50,25 +50,3 @@ def print_table(values, columns):
         cols = cols + "|"
         print(cols)
     print(line)
-
-
-entries = [
-    [
-        'John',
-        'Titer',
-        'False'
-    ],
-    [
-        'Pac',
-        'Man',
-        'True'
-    ]
-]
-
-cols = [
-    'First Name',
-    'Last Name',
-    'isRegistered'
-]
-
-print_table(entries, cols)
